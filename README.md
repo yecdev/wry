@@ -78,5 +78,19 @@ In order to use the pipe to move between YEC and WRY-on-BSC, there is a one-time
 
 ### Converting From YEC to WRY-on-BSC
 
+1. Check the current available capacity of the pipe here:
+
+    https://stats.ycash.xyz/wry/pipe_info
+    
+    You'll see a JSON objec that looks something like this:
+    
+    ```
+    {
+      "available_usd_capacity": 993.3382250445022,
+      "coin_price": 0.137301,
+      "available_coin_capacity": 7234.7486547403305,
+      "block_height": 907178
+    }
+    ```
 
 
