@@ -49,7 +49,11 @@ Current Fees:
 
 In order to use the pipe to move between YEC and WRY-on-BSC, there is a one-time sign-up fee of 1 YEC. (Moving between YEC and WRY-on-ETH will require a separate, one-time sign-up fee).
 
-1. Send exactly 1 YEC to **ys1kpp93lx90u6fy5uge6gwshedude8dyrw45h9zh727wlg5dp4xau7llkcgr3qj2udnjejks6c9nh** and in the memo put your shielded YEC address (beginning with "ys") followed by your BSC address. The addresses should be separated by whitespace. **The YEC address must begin with "ys" and should come first.**
+1. Send exactly 1 YEC to:
+
+    **ys1kpp93lx90u6fy5uge6gwshedude8dyrw45h9zh727wlg5dp4xau7llkcgr3qj2udnjejks6c9nh**
+    
+    and in the memo put your shielded YEC address (beginning with "ys") followed by your BSC address. The addresses should be separated by whitespace. **The YEC address must begin with "ys" and should come first.**
 
     Example memo:
 
