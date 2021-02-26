@@ -24,15 +24,17 @@ A WRY/BUSD pair exists on [PancakeSwap](https://pancakeswap.finance). Search for
 
 ## The Wry Pipe
 
-The Ycash Foundation maintains a permissionless, flow-restricted pipe for users to move between YEC and WRY on a limited basis. 
+The Ycash Foundation maintains a permissionless, flow-restricted pipe for users to move between YEC and WRY on a limited basis. Use of the pipe currently requires the use of a wallet that can perform shielded transactions, like [YecLite](https://github.com/yecdev/yeclite/releases) (recommended) or YecWallet.
 
-**Important Note: Currently, the pipe only support moving from YEC to WRY-on-BSC. Moving from WRY-on-BSC to YEC will be added by March 1, 2021. Ethereum support will be added sometime in March 2021.***
+**Important Note: Currently, the pipe only support moving from YEC to WRY-on-BSC. Moving from WRY-on-BSC to YEC will be added by March 1, 2021. Ethereum support will be added sometime in March 2021.**
 
 ### Cap of $1,000 on Aggregate Flow During Last 24 Hours
 
-Pursuant to the Ycash Foundation's interpretation of relevant United States laws, the aggregate flow through the pipe within a 24 hour period cannot exceed $1,000. Note that is *not* a per-user cap; rather, it is a cap on aggregate use. For example, if one user sends $1,000 worth of YEC into the pipe, then the pipe cannot be used by *any* user for the next 24 hours.
+Pursuant to the Ycash Foundation's interpretation of relevant United States laws, the aggregate flow through the pipe within a 24 hour period cannot exceed $1,000. Note that is *not* a per-user cap; rather, it is a cap on aggregate use. For example, if one user sends $1,000 worth of YEC into the pipe, then the pipe cannot be used by any other user for the next 24 hours.
 
-Because of this cap, your ability to use this permissionless pipe to move from WRY back to YEC may be significantly constrained, especially if the price of YEC goes up. The Ycash Foundation is actively exploring other mechanisms for moving between WRY and YEC, including WRY/YEC exchange pairs.
+Because of this cap, your ability to use this permissionless pipe to move from WRY back to YEC may be significantly constrained, especially if the price of YEC goes up. The Ycash Foundation is actively exploring other mechanisms for moving between WRY and YEC, including WRY/YEC exchange pairs, atomic swaps.
+
+Large holders of YEC interested in establishing a separate, dedicated (single user) pipe should contact the Ycash Foundation. Such a dedicated pipe would still have a $1,000 24-hour limit, but the pipe would be for the exclusive use of one user.
 
 ### Fees
 
@@ -43,3 +45,26 @@ Current Fees:
 - YEC to WRY-on-BSC: free (planned 1% fee waived as a promotion)
 - WRY-on-BSC to YEC: 1% paid in YEC
 
+### Instructions For Signing Up
+
+In order to use the pipe to move between YEC and WRY-on-BSC, there is a one-time sign-up fee of 1 YEC. (Moving between YEC and WRY-on-ETH will require a separate, one-time sign-up fee).
+
+1. Send exactly 1 YEC to **ys1kpp93lx90u6fy5uge6gwshedude8dyrw45h9zh727wlg5dp4xau7llkcgr3qj2udnjejks6c9nh** and in the memo put your shielded YEC address (beginning with "ys") followed by your BSC address. The addresses should be separated by whitespace. **The YEC address must begin with "ys" and should come first.**
+
+Example memo:
+
+```
+ys1z37kemxfj3qmzr7w9yt29jku7wu3hectwm8smfsycm0ksp7ejnpqcagqql2m8fct5kky6knqa6z 0xc41c50a5cd30685fe4f88bd9754f5b7d34fc57d4
+```
+
+2. You will receive a response that looks something like this:
+
+```
+YEC IN: ys1nqf57lusg0w4nyu7rthyw3292fv3qkw2ndn466j2jne444hzdqczr56lhgtnqazlgd9yyxt7xfd
+WRY OUT: 0x03b4BCbFF737D3B85eaDD53598192Af6A7e3CB45
+
+WRY IN: 0xfc2e1bc9887d785c5e059878c6b0873532c7bb01
+YEC OUT: ys16puwyfcu4qtgcn8dpfcqh2307psagm89mc7fgy2p0g6lf48wjck4upmpdv0dwggnruw4gawwsur
+```
+
+2. You will r
