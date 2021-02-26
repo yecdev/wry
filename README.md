@@ -51,22 +51,22 @@ In order to use the pipe to move between YEC and WRY-on-BSC, there is a one-time
 
 1. Send exactly 1 YEC to **ys1kpp93lx90u6fy5uge6gwshedude8dyrw45h9zh727wlg5dp4xau7llkcgr3qj2udnjejks6c9nh** and in the memo put your shielded YEC address (beginning with "ys") followed by your BSC address. The addresses should be separated by whitespace. **The YEC address must begin with "ys" and should come first.**
 
-Example memo:
+    Example memo:
 
-```
-ys1z37kemxfj3qmzr7w9yt29jku7wu3hectwm8smfsycm0ksp7ejnpqcagqql2m8fct5kky6knqa6z 0xc41c50a5cd30685fe4f88bd9754f5b7d34fc57d4
-```
+     ```
+     ys1z37kemxfj3qmzr7w9yt29jku7wu3hectwm8smfsycm0ksp7ejnpqcagqql2m8fct5kky6knqa6z 0xc41c50a5cd30685fe4f88bd9754f5b7d34fc57d4
+     ```
 
 2. You will receive a response that looks something like this:
 
-```
-YEC IN: ys1nqf57lusg0w4nyu7rthyw3292fv3qkw2ndn466j2jne444hzdqczr56lhgtnqazlgd9yyxt7xfd
-WRY OUT: 0x03b4BCbFF737D3B85eaDD53598192Af6A7e3CB45
+    ```
+    YEC IN: ys1nqf57lusg0w4nyu7rthyw3292fv3qkw2ndn466j2jne444hzdqczr56lhgtnqazlgd9yyxt7xfd
+    WRY OUT: 0x03b4BCbFF737D3B85eaDD53598192Af6A7e3CB45
 
-WRY IN: 0xfc2e1bc9887d785c5e059878c6b0873532c7bb01
-YEC OUT: ys16puwyfcu4qtgcn8dpfcqh2307psagm89mc7fgy2p0g6lf48wjck4upmpdv0dwggnruw4gawwsur
-```
-The YEC IN and WRY IN addresses are dedicated to you.
+    WRY IN: 0xfc2e1bc9887d785c5e059878c6b0873532c7bb01
+    YEC OUT: ys16puwyfcu4qtgcn8dpfcqh2307psagm89mc7fgy2p0g6lf48wjck4upmpdv0dwggnruw4gawwsur
+    ```
+    The YEC IN and WRY IN addresses are dedicated to you.
 
 3. Double check that the WRY OUT and YEC OUT addresses match the addresses that you specified.. If they don't match, then the message is a phishing attempt and should be ignored. For increased safety, use a fresh Ycash shielded address that no one knows.
 
