@@ -82,7 +82,7 @@ In order to use the pipe to move between YEC and WRY-on-BSC, there is a one-time
 
     https://stats.ycash.xyz/wry/pipe_info
     
-    You'll see a JSON objec that looks something like this:
+    You'll see a JSON object that looks something like this:
     
     ```
     {
@@ -92,5 +92,14 @@ In order to use the pipe to move between YEC and WRY-on-BSC, there is a one-time
       "block_height": 907178
     }
     ```
+    
+    *Important note: The JSON output above is only an example. To get the current statistics, please click on the link provided above.*
+    
+    The `available_coin_capacity` is the maximum number of YEC you can send to your YEC IN address given the pipe's 24-hour threshold of $1,000.
+    
+2. Send YEC between 50 YEC to `available_coin_capacity` YEC to your `YEC IN` address. Do not send less than 50 YEC; if you do, your YEC will be treated as a donation to fund the operation of the pipe. Do not send more than the number of coins specified by `available coin capacity`; if you do, you're YEC will be held until there is time to manually process a refund to you.
 
+3. Wait 4 confirmations on the Ycash blockchain.
+
+4. After 4 confirmations, your WRY will be sent to your `WRY OUT` address (minus any fees). (As a promotion, currently there are no fees. Before using the pipe, always check this page for current fees in effect.
 
