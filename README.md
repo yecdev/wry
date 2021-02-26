@@ -10,7 +10,7 @@ Each WRY coin represents a YEC coin that has been taken out of circulation by th
 
 Wry is an ERC-20 token. The Wry contract has been deployed on Binance Smart Chain (BSC) here:
 
-https://bscscan.com/token/0x4f0c54c06bc401d02df557fd65ee30f622155cf6has
+https://bscscan.com/token/0x4f0c54c06bc401d02df557fd65ee30f622155cf6
 
 and has been deployed on Ethereum here:
 
@@ -71,4 +71,8 @@ In order to use the pipe to move between YEC and WRY-on-BSC, there is a one-time
 3. Double check that the WRY OUT and YEC OUT addresses match the addresses that you specified.. If they don't match, then the message is a phishing attempt and should be ignored. For increased safety, use a fresh Ycash shielded address that no one knows.
 
 4. If a problem arises, send a memo to your YEC IN address. **DO NOT SHARE YOUR YEC IN ADDRESS WITH ANYONE.** We will assume that any memo sent to your YEC IN address is coming from you.
+
+### Converting From YEC to WRY-on-BSC
+
+1.
 
