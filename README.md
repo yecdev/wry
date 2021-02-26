@@ -66,5 +66,9 @@ WRY OUT: 0x03b4BCbFF737D3B85eaDD53598192Af6A7e3CB45
 WRY IN: 0xfc2e1bc9887d785c5e059878c6b0873532c7bb01
 YEC OUT: ys16puwyfcu4qtgcn8dpfcqh2307psagm89mc7fgy2p0g6lf48wjck4upmpdv0dwggnruw4gawwsur
 ```
+The YEC IN and WRY IN addresses are dedicated to you.
 
-2. You will r
+3. Double check that the WRY OUT and YEC OUT addresses match the addresses that you specified.. If they don't match, then the message is a phishing attempt and should be ignored. For increased safety, use a fresh Ycash shielded address that no one knows.
+
+4. If a problem arises, send a memo to your YEC IN address. **DO NOT SHARE YOUR YEC IN ADDRESS WITH ANYONE.** We will assume that any memo sent to your YEC IN address is coming from you.
+
