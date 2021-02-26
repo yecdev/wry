@@ -105,6 +105,6 @@ In order to use the pipe to move between YEC and WRY-on-BSC, there is a one-time
 
 3. Wait 4 confirmations on the Ycash blockchain.
 
-4. After 4 confirmations, your WRY will be sent to your `WRY OUT` address (minus any fees). (As a promotion, currently there are no fees. Before using the pipe, always check this page for the current fees in effect.
+4. After 4 confirmations, your WRY will be sent to your `WRY OUT` address (minus any fees). (As a promotion, currently there are no fees. Each time before using the pipe, check this page for the current fees in effect.)
 
 5. Enjoy using Wry!
