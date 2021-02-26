@@ -20,7 +20,7 @@ To minimize risk, the thoroughly-audited standard OpenZeppelin ERC-20 contract w
 
 At deployment, the Wry contract mints 21 million WRY and sends them to an address designated by the Ycash Foundation as out of circulation. By design, the contract does not allow further coins to be minted and does not allow any coins to be burned. Also by design: The Wry contract does not follow the "updatable contract" pattern and is thus immutable. No one, not even the Ycash Foundation, can ever change the deployed Wry contract. Because of these design decisions, Wry is extremely gas-efficient, with transfers to addresses with a Wry balance of zero using only 51,337 gas and transfers to addresses with non-zero Wry balance using only 36,337 gas.
 
-A WRY/BUSD pair exists on [PancakeSwap](https://pancakeswap.finance). Search for the address of the Wry contract deployed on BSC: 0x4f0c54c06bc401d02df557fd65ee30f622155cf6has
+A WRY/BUSD pair exists on [PancakeSwap](https://pancakeswap.finance). Search for the address of the Wry contract deployed on BSC: 0x4f0c54c06bc401d02df557fd65ee30f622155cf6
 
 ## The Wry Pipe
 
