@@ -6,7 +6,7 @@ Wry is a wrapped Ycash token for smart contract platforms like Ethereum and Bina
 
 Each WRY coin represents a YEC coin that has been taken out of circulation by the Ycash Foundation. "Out of circulation" means that the coin cannot be used for any purpose. _The Ycash Foundation promises that the total number of YEC in circulation plus the total number of WRY in circulation will never exceed the amount of YEC previously mined on the Ycash blockchain._ As such, the value of 1 WRY is meant to equal the value of 1 YEC. Regardless of whether the free market values WRY and YEC equally, the Ycash Foundation will always treat their values as being equal.
 
-The Ycash will provide the necessary information (for example viewing keys) to allow for the number of coins taken out of circulation to be indepedently verified by anyone in the world. That information will be published on this page.
+The Ycash Foundation will provide the necessary information (for example viewing keys) to allow for the number of coins taken out of circulation to be indepedently verified by anyone in the world. That information will be published on this page.
 
 ## The Wry Token
 
