@@ -101,7 +101,7 @@ In order to use the pipe to move between YEC and WRY-on-BSC, there is a one-time
     
     The `available_coin_capacity` is the maximum number of YEC you can send to your YEC IN address given the pipe's 24-hour threshold of $1,000.
     
-2. Send YEC between 50 YEC to `available_coin_capacity` YEC to your `YEC IN` address. Do not send less than 50 YEC; if you do, your YEC will be treated as a donation to fund the operation of the pipe. Do not send more than the number of coins specified by `available coin capacity`; if you do, you're YEC will be held until there is time to manually process a refund to you.
+2. Send between 50 YEC to `available_coin_capacity` YEC to your `YEC IN` address. Do not send less than 50 YEC; if you do, your YEC will be treated as a donation to fund the operation of the pipe. Do not send more than the number of coins specified by `available coin capacity`; if you do, you're YEC will be held until there is time to manually process a refund to you.
 
 3. Wait 4 confirmations on the Ycash blockchain.
 
