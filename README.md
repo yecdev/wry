@@ -34,7 +34,7 @@ The Ycash Foundation maintains a permissionless, flow-restricted pipe for users 
 
 ### Cap of $1,000 on Aggregate Flow During Last 24 Hours
 
-Pursuant to the Ycash Foundation's interpretation of relevant United States laws, the aggregate flow through the pipe within a 24 hour period cannot exceed $1,000. Note that is *not* a per-user cap; rather, it is a cap on aggregate use. For example, if one user sends $1,000 worth of YEC into the pipe, then the pipe cannot be used by any other user for the next 24 hours.
+Pursuant to the Ycash Foundation's interpretation of relevant United States laws, the aggregate flow through the pipe within a 24 hour period cannot exceed $1,000. Note that this is *not* a per-user cap; rather, it is a cap on aggregate use. For example, if one user sends $1,000 worth of YEC into the pipe, then the pipe cannot be used by any other user for the next 24 hours.
 
 Because of this cap, your ability to use this permissionless pipe to move from WRY back to YEC may be significantly constrained, especially if the price of YEC goes up. The Ycash Foundation is actively exploring other mechanisms for moving between WRY and YEC, including WRY/YEC exchange pairs, atomic swaps.
 
