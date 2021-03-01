@@ -30,7 +30,7 @@ A WRY/BUSD pair exists on [PancakeSwap](https://pancakeswap.finance). Search for
 
 The Ycash Foundation maintains a permissionless, flow-restricted pipe for users to move between YEC and WRY on a limited basis. Use of the pipe currently requires a wallet that can perform shielded transactions, like [YecLite](https://github.com/yecdev/yeclite/releases) (recommended) or YecWallet.
 
-**Important Note: Currently, the pipe only support moving from YEC to WRY-on-BSC. Moving from WRY-on-BSC to YEC will be added by March 1, 2021. Ethereum support will be added sometime in March 2021.**
+**Important Note: Currently, the pipe only support moving from YEC to WRY-on-BSC. Moving from WRY-on-BSC to YEC will be added by March 7, 2021. Ethereum support will be added sometime in March 2021.**
 
 ### Cap of $1,000 on Aggregate Flow During Last 24 Hours
 
