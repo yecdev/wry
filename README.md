@@ -22,7 +22,7 @@ To minimize risk, the thoroughly-audited standard OpenZeppelin ERC-20 contract w
 
 At deployment, the Wry contract mints 21 million WRY and sends them to an address designated by the Ycash Foundation as out of circulation. By design, the contract does not allow further coins to be minted and does not allow any coins to be burned. Also by design: The Wry contract does not follow the "updatable contract" pattern and is thus immutable. No one, not even the Ycash Foundation, can ever change the deployed Wry contract. Because of these design decisions, Wry is extremely gas-efficient, with transfers to addresses with a Wry balance of zero using only 51,337 gas and transfers to addresses with a non-zero Wry balance using only 36,337 gas.
 
-A WRY/exists on [PancakeSwap](https://pancakeswap.finance):
+There are two WRY liquidity pools one [PancakeSwap](https://pancakeswap.finance): WRY/BUSD and WRY/BNB.
 
 Search for the address of the Wry contract deployed on BSC:
 
@@ -32,7 +32,7 @@ Search for the address of the Wry contract deployed on BSC:
 
 The Ycash Foundation maintains a permissionless, flow-restricted pipe for users to move between YEC and WRY on a limited basis. Use of the pipe currently requires a wallet that can perform shielded transactions, like [YecLite](https://github.com/yecdev/yeclite/releases) (recommended) or YecWallet.
 
-**Important Note: Currently, the pipe only support moving from YEC to WRY-on-BSC. Moving from WRY-on-BSC to YEC will be added by March 7, 2021. Ethereum support will be added sometime in March 2021.**
+**Important Note: Currently, the pipe only support moving from YEC to WRY-on-BSC. Moving from WRY-on-BSC to YEC will be added by March 21, 2021. Ethereum support will be added by April 15.**
 
 ### Cap of $1,000 on Aggregate Flow During Last 24 Hours
 
