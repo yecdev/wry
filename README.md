@@ -32,7 +32,7 @@ Search for the address of the Wry contract deployed on BSC:
 
 The Ycash Foundation maintains a permissionless, flow-restricted pipe for users to move between YEC and WRY on a limited basis. Use of the pipe currently requires a wallet that can perform shielded transactions, like [YecLite](https://github.com/yecdev/yeclite/releases) (recommended) or YecWallet.
 
-**Important Note: Currently, the pipe only support moving from YEC to WRY-on-BSC and from WRY-on-BSC to YEC. Ethereum support will be added in advance of the launch of Optimism (and Ethereum Layer 2 solution) slated for the summer of 2021.**
+**Important Note: Currently, the pipe only support moving from YEC to WRY-on-BSC and from WRY-on-BSC to YEC. Ethereum support will be added in advance of the launch of Optimism (an Ethereum Layer 2 solution) slated for the summer of 2021.**
 
 ### Cap of $1,000 on Aggregate Flow During Last 24 Hours
 
